@@ -18,8 +18,26 @@
 
 body{
     font-family:var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+    max-width: 1024px;
+    margin: auto;
+
+}
+.hero{
+    background-color: rgba(0, 0, 0, .1);
+    position: relative;
+
+}
+
+.hero img{
+    display: block;
+    position: relative;
+
+}
+
+.article img{
+    float: right;
+    position: relative;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,15 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     padding: 20px;
-    background-color:var(--accent1-color);
+    background-color: white;
 }
 
 p {
     padding: 25px;
+    text-align: justify;
 }
 
 nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -58,3 +76,20 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+  .sociallink {
+    background-color: white;
+
+  }
