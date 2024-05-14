@@ -85,12 +85,11 @@ body{
 
 .img-over{
     display: block;
-    position: absolute;
     margin: 1%;
     float: right;
 }
 
-.heading-h1{
+.hero h1{
     position: absolute;
     top: 0;
     left: 20%;
