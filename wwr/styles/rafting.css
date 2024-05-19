@@ -22,7 +22,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    max-width: 1024;
+    max-width: 1024px;
 }
 
 header img{
