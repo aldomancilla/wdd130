@@ -66,22 +66,28 @@
             </section>
 
             <section>
-                    <form action="">
+                <h2>Contact form</h2>
+                    <form>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name">
+
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email"><br><br>
-                        <label for="purpose">Purpose of the message</label>
+
+                        <label for="inquiry">Purpose of the message</label>
                         <label for="inquiry">General Inquiry</label>
-                        <input type="radio" id="inquiry" name="purpose" value="Inquiry">
+                        <input type="radio" id="inquiry" name="pur" value="Inquiry">
                         <label for="reservation">Reservation Question</label>
-                        <input type="radio" id="reservation" name="purpose" value="Reservation">
+                        <input type="radio" id="reservation" name="pur" value="Reservation">
                         <label for="website">Website Suggestion</label>
-                        <input type="radio" id="website" name="purpose" value="Website"><br>
+                        <input type="radio" id="website" name="pur" value="Website"><br>
+
                         <label for="message">Message:</label>
-                        <textarea id="message" name="message"></textarea>
+                        <textarea id="message" name="message" rows="4" cols="20"></textarea>
+
                         <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                         <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
                         <button type="submit">Submit</button>
                     </form>
             </section>
