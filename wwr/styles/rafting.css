@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --primary-color: #fb8500;
-    --secondary-color: #023047;
+    --primary-color:#023047;
+    --secondary-color:#fb8500;
     --accent1-color: #fbefb9;
     --accent2-color: #FFB703;
     
@@ -77,10 +77,6 @@ a:active {
 
 .sociallinks {
     background-color: white;
-}
-
-nav a:link, nav a:visited {
-   /* color:  var(--nav-link-color);*/
 }
 
 nav a:hover {
@@ -164,3 +160,93 @@ footer p{
     text-align: center;
     padding-right: 5%;
 }
+
+iframe {
+    border: none;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+}
+    
+li {
+    margin: 10px 10px;
+    font-size: 1rem;
+}
+
+.div1 p {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.employee {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1.8rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0,5rem;
+    background-color: #f3f3f3;
+    display: grid;
+}
+
+label {
+    text-align: left;
+    padding: .8rem;
+    font-size: 1rem;
+}
+
+input, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+ input[type="checkbox"] {
+    margin-left: auto;
+    margin-top: -2rem;
+    width: 1rem;
+    height: 1rem;
+    vertical-align:top;
+ }
+ input[type="radio"]{
+    margin-left: auto;
+    margin-top: -2rem;
+    justify-items: center;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+ }
+
+ button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .6rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    border-radius: .6rem;
+}
+
