@@ -202,7 +202,7 @@ form {
     margin: 0 auto;
     padding: 1.8rem;
     border: 1px solid var(--primary-color);
-    border-radius: 0,5rem;
+    border-radius: 0.5rem;
     background-color: #f3f3f3;
     display: grid;
 }
