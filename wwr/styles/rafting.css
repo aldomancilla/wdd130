@@ -3,8 +3,8 @@
 
 :root{
     --primary-color:#023047;
-    --secondary-color:#fb8500;
-    --accent1-color: #fbefb9;
+    --secondary-color:#00bbff72;
+    --accent1-color: #ffffff;
     --accent2-color: #FFB703;
     
     --heading-font: "Roboto", sans-serif;
@@ -54,7 +54,6 @@ nav a {
 
 a:link { 
     text-decoration: none;
-    
     border: none;
     border-bottom: 1px solid #023047;
     background-color: #efefef;
@@ -73,10 +72,6 @@ a:hover {
 
 a:active { 
     text-decoration: none; 
-}
-
-.sociallinks {
-    background-color: white;
 }
 
 nav a:hover {
@@ -103,11 +98,13 @@ body{
 }
 
 .hero h1{
+    color: #efefef;
     position: absolute;
+    padding: 1rem 1rem 1rem 1rem;
     top: 0;
-    left: 20%;
-    transform: translate(50%, 50%);
-    background-color: rgba(0, 0, 0, .5);
+    left: 10%;
+    width: 77%;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .art {
@@ -122,12 +119,13 @@ body{
 
 .history{
     display: flex;
+    align-items: center;
 }
 
 .history img{
     width: 150px;
     height: 100px;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 figcaption {
@@ -146,19 +144,13 @@ figure {
     padding: 0;
     margin: 7px;
 }
-
+    
 footer {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:center;
     border-top: 1px solid #023047;
     margin-top: 2rem;
-    ;
-}
-footer p{
-    align-items: center;
-    text-align: center;
-    padding-right: 5%;
 }
 
 iframe {
