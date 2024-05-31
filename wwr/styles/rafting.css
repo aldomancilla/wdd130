@@ -54,6 +54,7 @@ nav a {
 
 a:link { 
     text-decoration: none;
+    
     border: none;
     border-bottom: 1px solid #023047;
     background-color: #efefef;
@@ -74,6 +75,10 @@ a:active {
     text-decoration: none; 
 }
 
+.sociallinks {
+    background-color: white;
+}
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
@@ -87,8 +92,8 @@ body{
 }
 
 .hero{
-    background-color: rgba(0, 0, 0, .1);
     position: relative;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .img-over{
@@ -102,9 +107,10 @@ body{
     position: absolute;
     padding: 1rem 1rem 1rem 1rem;
     top: 0;
-    left: 10%;
-    width: 77%;
+    left: 24%;
+    width: 50%;
     background-color: rgba(0, 0, 0, .4);
+    text-shadow: 2px 2px 2px #303030
 }
 
 .art {
@@ -125,7 +131,7 @@ body{
 .history img{
     width: 150px;
     height: 100px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 figcaption {
@@ -144,13 +150,19 @@ figure {
     padding: 0;
     margin: 7px;
 }
-    
+
 footer {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     border-top: 1px solid #023047;
     margin-top: 2rem;
+    ;
+}
+footer p{
+    align-items: center;
+    text-align: center;
+    padding-right: 5%;
 }
 
 iframe {
