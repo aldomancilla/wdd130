@@ -250,8 +250,7 @@ button {
     display:block;
     justify-items: center;
     align-items: center;
-
-    margin: -10% auto 5% auto ;
+    margin: -10% auto 10% auto ;
 }
 
 .custom-button2{
@@ -324,6 +323,10 @@ button{
     position: relative;
 }
 
+.twodiv1 img, .twodiv2 img{
+    max-width: 500px;
+}
+
 .textover{
     color: #efefef;
     position: absolute;
@@ -356,14 +359,14 @@ button{
 .lottieicon{
     display:block;
     justify-items: center;
-    margin: 100px auto -60px 460px;
+    margin: 10px auto -60px 460px;
 }
 
 .threerows img{
     display: block;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    max-width: 70px;
     margin: 20px auto 0px auto;
 }
 
