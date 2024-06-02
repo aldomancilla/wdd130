@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 :root{
     --primary-color:#023047;
@@ -7,7 +8,7 @@
     --accent1-color: #ffffff;
     --accent2-color: #FFB703;
     
-    --heading-font: "Roboto", sans-serif;
+    --heading-font:  "Dancing Script", sans-serif;
     --paragraph-font: "Montserrat", sans-serif;
 
     --nav-background-color:var(--secondary-color);
@@ -32,6 +33,7 @@ header img{
 p {
     padding: 25px;
     text-align: justify;
+    font-family:var(--paragraph-font);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -183,8 +185,8 @@ li {
     font-size: 1rem;
 }
 
-.div1 p {
-    font-family:var(--heading-font);
+.divcontact p{
+    /*font-family:var(--heading-font);*/
     color:var(--primary-color);
     text-align: left;
     font-size: 1.3rem;
@@ -220,7 +222,7 @@ label {
 input, textarea {
     padding: .5rem;
     font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--paragraph-font);
 }
  input[type="checkbox"] {
     margin-left: auto;
@@ -238,19 +240,145 @@ input, textarea {
     vertical-align: bottom;
  }
 
- button {
+button {
     margin: 1rem;
-    background-color: var(--primary-color);
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: .6rem;
     padding: .75rem;
     font-size: 1.1rem;
 }
 
-button:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-    border-radius: .6rem;
+.custom-button1{
+    display:block;
+    justify-items: center;
+    align-items: center;
+
+    margin: -10% auto 5% auto ;
 }
 
+.custom-button2{
+    display:block;
+    justify-items: center;
+    align-items: center;
+    margin: 0px auto 0px auto ;
+}
+
+button{
+    min-width: 130px;
+    height: 2.5rem;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color:var(--primary-color);
+    box-shadow: 0px 2px 4px #303030
+  }
+    button:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+    button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+    button:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.threerows {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+}
+
+.tworows {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-bottom: 20px;
+}
+
+.twodiv1, .twodiv2{
+    position: relative;
+}
+
+.textover{
+    color: #efefef;
+    position: absolute;
+    padding: 1rem 1rem 1rem 1rem;
+    top: 0;
+    left: 10%;
+    width: 77%;
+    background-color: rgba(0, 0, 0, .4);
+    text-shadow: 2px 2px 2px #303030dd
+}
+
+.butover{
+    display:block;
+    justify-items: center;
+    align-items: center;
+    margin:auto;
+    margin-top: -15%;
+    margin-bottom: 5%;
+}
+
+.specialtext{
+    text-align: center;
+    padding:  3rem 5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #023047;
+
+} 
+
+.lottieicon{
+    display:block;
+    justify-items: center;
+    margin: 100px auto -60px 460px;
+}
+
+.threerows img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 20px auto 0px auto;
+}
+
+.threerows p{
+    text-align: center;
+    margin: -30px 0px 60px 0px;
+}
+
+.safety{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.lastchance p{
+    text-align: center;
+    margin: -20px 0px 20px 0px;
+}
