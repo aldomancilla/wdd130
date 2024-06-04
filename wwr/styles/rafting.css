@@ -446,6 +446,8 @@ button{
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px #303030;
+        margin-left: -15px;
+        background-color: #ffffff;
     }
         
     .detaildiv2 { grid-area: 1 / 2 / 2 / 3; 
@@ -456,6 +458,8 @@ button{
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px #303030;
+        margin-left: -15px;
+        background-color: #ffffff;
     }
     .detaildiv4 { grid-area: 2 / 2 / 3 / 3; 
         border-bottom: 1px solid #dcdcdc;
@@ -465,6 +469,8 @@ button{
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px #303030;
+        margin-left: -15px;
+        background-color: #ffffff;
     }
     .detaildiv6 { grid-area: 3 / 2 / 4 / 3;
         border-bottom: 1px solid #dcdcdc;
@@ -473,6 +479,8 @@ button{
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px #303030;
+        margin-left: -15px;
+        background-color: #ffffff;
     }
     .detaildiv8 { grid-area: 4 / 2 / 5 / 3; 
         border-bottom: 1px solid #dcdcdc;
@@ -481,6 +489,8 @@ button{
         border: 1px solid var(--primary-color);
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px #303030;
+        margin-left: -15px;
+        background-color: #ffffff;
     }
     .detaildiv10 { grid-area: 5 / 2 / 6 / 3;
     }
